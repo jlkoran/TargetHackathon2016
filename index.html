@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Party Planner</title>
+    <link rel="icon" href="images/logo.png">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,8 +18,36 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+  <style>
+    h1 {
+      color: #cf142b;
+      font-weight: 700;
+      font-size: 50pt;
+    }
+
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 90%;
+    }
+  </style>
+
   <body>
-    <h1>happy birthday.</h1>
+
+    <div class='row'>
+      <div class='col-md-4' style="padding-left:0">
+        <img src="images/half-logo.png" max-height="90%"></img>
+      </div>
+      
+      <div class='col-md-8'>
+        <h1 style="margin-top:40%;">happy birthday.</h1>
+        <div class="btn-group" style="margin-left:30%">
+          <button type="button" class="btn btn-danger" style="font-size:15pt">let's plan a party.</button>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -3394,7 +3394,7 @@ fieldset[disabled] .btn-danger:focus,
 .btn-danger.disabled.focus,
 .btn-danger[disabled].focus,
 fieldset[disabled] .btn-danger.focus {
-  background-color: #d9534f;
+  background-color: #cf142b;
   border-color: #d43f3a;
 }
 .btn-danger .badge {
