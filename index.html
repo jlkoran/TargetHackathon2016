@@ -35,7 +35,6 @@
   </style>
 
   <body>
-
     <div class='row'>
       <div class='col-md-4' style="padding-left:0">
         <img src="images/half-logo.png" max-height="90%"></img>
@@ -43,11 +42,19 @@
       
       <div class='col-md-8'>
         <h1 style="margin-top:40%;">happy birthday.</h1>
-        <div class="btn-group" style="margin-left:30%">
-          <button type="button" class="btn btn-danger" style="font-size:15pt">let's plan a party.</button>
+        <div class="btn-group" style="margin-left:220px">
+          <button type="button" class="btn btn-danger" style="font-size:15pt;" href="questions.html">let's plan a party.</button>
         </div>
       </div>
     </div>
+
+
+    <form action="welcome.php" method="get">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+    </form>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
