@@ -32,6 +32,20 @@
       max-width: 100%;
       max-height: 90%;
     }
+
+    h2 {
+      text-align: center;
+      color: #cf142b;
+      font-weight: 700;
+    }
+
+    form {
+      display: inline-block;
+    }
+
+    .questions {
+      text-align: center;
+    }
   </style>
 
   <body>
@@ -48,13 +62,31 @@
       </div>
     </div>
 
-
     <form action="welcome.php" method="get">
     Name: <input type="text" name="name"><br>
     E-mail: <input type="text" name="email"><br>
     <input type="submit">
     </form>
 
+<!--       <div class="questions">
+          <form action="">
+            <h2>Who is the party for?</h2>
+              <input type="radio" name="age" value="male"> Child<br>
+              <input type="radio" name="age" value="female"> Young Adult<br>
+              <input type="radio" name="age" value="other"> Adult<br>
+              <br>
+              <br>
+            <h2>What is your zipcode?</h2>
+              <input type="text" placeholder="Zipcode" class="zipcode" id="zipcode">
+              <br>
+              <br>
+            <h2>What theme are you interested in?</h2>
+              <input type="checkbox" value=""
+              <br>
+              <br>
+            <input type="submit" value="Submit">
+          </form>
+      </div> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
